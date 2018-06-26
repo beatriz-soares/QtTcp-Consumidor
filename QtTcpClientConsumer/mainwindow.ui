@@ -14,7 +14,7 @@
    <string>Tcp Client Consumer</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgba(10, 11, 13, 0.9);
+   <string notr="true">background-color: rgb(243, 243, 243);
 border-bottom-color: rgb(46, 52, 54);</string>
   </property>
   <widget class="QWidget" name="centralWidget">
@@ -26,7 +26,7 @@ border-bottom-color: rgb(46, 52, 54);</string>
         <item>
          <widget class="QLabel" name="label">
           <property name="styleSheet">
-           <string notr="true">color: rgb(255, 255, 255);</string>
+           <string notr="true">color: rgb(0, 0, 0);</string>
           </property>
           <property name="text">
            <string>IP do servidor</string>
@@ -48,7 +48,7 @@ border-bottom-color: rgb(46, 52, 54);</string>
           <item>
            <widget class="QPushButton" name="pushButtonConnect">
             <property name="styleSheet">
-             <string notr="true">color: rgb(255, 255, 255);</string>
+             <string notr="true">color: rgb(0, 0, 0);</string>
             </property>
             <property name="text">
              <string>Connect</string>
@@ -71,7 +71,7 @@ border-bottom-color: rgb(46, 52, 54);</string>
           <item>
            <widget class="QPushButton" name="pushButtonDisconnect">
             <property name="styleSheet">
-             <string notr="true">color: rgb(255, 255, 255);</string>
+             <string notr="true">color: rgb(0, 0, 0);</string>
             </property>
             <property name="text">
              <string>Disconnect</string>
@@ -83,8 +83,7 @@ border-bottom-color: rgb(46, 52, 54);</string>
         <item>
          <widget class="QLabel" name="label_2">
           <property name="styleSheet">
-           <string notr="true">color: rgb(255, 255, 255);
-</string>
+           <string notr="true">color: rgb(0, 0, 0);</string>
           </property>
           <property name="text">
            <string>IPs dos produtores</string>
@@ -122,7 +121,7 @@ selection-background-color: rgba(29, 28, 28, 159);</string>
           <item>
            <widget class="QPushButton" name="pushButtonUpdate">
             <property name="styleSheet">
-             <string notr="true">color: rgb(255, 255, 255);</string>
+             <string notr="true">color: rgb(0, 0, 0);</string>
             </property>
             <property name="text">
              <string>Update</string>
@@ -134,7 +133,7 @@ selection-background-color: rgba(29, 28, 28, 159);</string>
         <item>
          <widget class="QLabel" name="label_3">
           <property name="styleSheet">
-           <string notr="true">color: rgb(255, 255, 255);</string>
+           <string notr="true">color: rgb(0, 0, 0);</string>
           </property>
           <property name="text">
            <string>Timing (s)</string>
@@ -193,7 +192,7 @@ tick-color: rgb(46, 52, 54);</string>
              <enum>Qt::DefaultContextMenu</enum>
             </property>
             <property name="styleSheet">
-             <string notr="true">color: rgb(255, 255, 255);</string>
+             <string notr="true">color: rgb(0, 0, 0);</string>
             </property>
             <property name="frameShape">
              <enum>QFrame::NoFrame</enum>
@@ -219,7 +218,7 @@ tick-color: rgb(46, 52, 54);</string>
           <item>
            <widget class="QPushButton" name="pushButtonConnectStart">
             <property name="styleSheet">
-             <string notr="true">color: rgb(255, 255, 255);</string>
+             <string notr="true">color: rgb(0, 0, 0);</string>
             </property>
             <property name="text">
              <string>Start</string>
@@ -242,7 +241,7 @@ tick-color: rgb(46, 52, 54);</string>
           <item>
            <widget class="QPushButton" name="pushButtonConnectStop">
             <property name="styleSheet">
-             <string notr="true">color: rgb(255, 255, 255);</string>
+             <string notr="true">color: rgb(0, 0, 0);</string>
             </property>
             <property name="text">
              <string>Stop</string>
