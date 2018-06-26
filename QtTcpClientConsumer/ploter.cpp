@@ -126,7 +126,7 @@ void Ploter::draw( std::vector<qint64> _timeList, std::vector<int>_valueList){
         // 1/ (1 + (e/3.5)^x)) adaptação feita para variar melhor entre 0 e 10, deixando o menor valor de  y = 0.5
         //   qDebug() << " função: " << (1 / (1 +  std::pow(e/3.5,_valueList[i] )  ) ) * height() ;
         // qDebug() << "altura: " << height();
-        valueList.push_back((1 / (1 +  std::pow(e/3.5,_valueList[i] )  ) ) * height() );
+        valueList.push_back(height()*0.05 + 4*_valueList[i] );
     }
     firstPrint = false;
 
